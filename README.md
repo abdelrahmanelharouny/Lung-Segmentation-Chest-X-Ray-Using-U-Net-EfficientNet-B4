@@ -2,7 +2,7 @@
 
 **Multi-source lung-field segmentation in chest radiographs, with provenance-aware evaluation and reproducible experiment controls.**
 
-LungSeg v6 is a research pipeline for binary lung-field segmentation in grayscale chest X-rays. The reference implementation is provided as a Jupyter notebook (`LungSeg.ipynb`). It combines a U-Net++-style encoder–decoder with an EfficientNet-B0 encoder, optional deep-supervision heads, a contour-oriented auxiliary head, and a composite pixel-wise/overlap objective. The surrounding pipeline covers data indexing, annotation provenance, duplicate-aware splits, mask quality checks, resumable training, validation-based model selection, geometric evaluation, test-time augmentation (TTA), an exploratory uncertainty analysis, source-held-out experiments, and TorchScript export.
+LungSeg is a research pipeline for binary lung-field segmentation in grayscale chest X-rays. The reference implementation is provided as a Jupyter notebook (`LungSeg.ipynb`). It combines a U-Net++-style encoder–decoder with an EfficientNet-B0 encoder, optional deep-supervision heads, a contour-oriented auxiliary head, and a composite pixel-wise/overlap objective. The surrounding pipeline covers data indexing, annotation provenance, duplicate-aware splits, mask quality checks, resumable training, validation-based model selection, geometric evaluation, test-time augmentation (TTA), an exploratory uncertainty analysis, source-held-out experiments, and TorchScript export.
 
 The project is designed to make segmentation experiments easier to audit. It is not a clinical device, and the notebook's implemented checks or smoke runs should not be read as evidence of clinical safety or external validity.
 
